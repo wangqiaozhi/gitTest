@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //http://192.168.1.118:8081/
+    alert(window.orientation);
+    window.addEventListener("orientationchange",function(){
+        alert(window.orientation);
+    })
+    /*
+        window.orientation 检测横竖屏
+            0 180 竖屏
+            90 -90 横屏  
+        orientationchange 监听横竖屏切换    
+    */
+</script>
+</body>
+</html>
